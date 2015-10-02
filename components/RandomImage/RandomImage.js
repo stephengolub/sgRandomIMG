@@ -19,7 +19,7 @@ angular.module('sg.images')
         } else {
             return -1;
         }
-    }
+    };
 
     var getRandomSourceURL = function () {
         var randomIndex = getRandomIndex();
@@ -27,7 +27,7 @@ angular.module('sg.images')
         if (randomIndex >= 0) {
             return srcList[randomIndex];
         }
-    }
+    };
 
     var RandomImage = {
         buildRandomUrl: function (width, height) {
