@@ -27,6 +27,8 @@ angular.module('sg.images')
                         if (!isNaN(tempHeight)) {
                             height = tempHeight;
                         }
+                    } else {
+                        height = width;
                     }
                 }
             }
